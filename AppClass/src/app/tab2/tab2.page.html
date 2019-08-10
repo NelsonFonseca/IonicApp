@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab Two
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button color="primary" (click)="presentActionSheet()" expand="full" shape="round" fill="outline">Holi xd</ion-button>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Input</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Toggle</ion-label>
+      <ion-toggle slot="end"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Radio</ion-label>
+      <ion-radio slot="end"></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>Checkbox</ion-label>
+      <ion-checkbox slot="start"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+  
+  <ion-button color="secondary" (click)="presentAlert()" expand="full" shape="round" fill="outline">Alerta Aeropuerto :v</ion-button>
+
+  <ion-item>
+  <ion-label>My Item</ion-label>
+  <ion-badge slot="end">22</ion-badge>
+</ion-item>
+
+<ion-button color="secondary" (click)="goPage2()" expand="full" shape="round" fill="outline">Go other page</ion-button>
+
+</ion-content>
